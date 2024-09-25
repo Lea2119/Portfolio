@@ -8,10 +8,10 @@
     <v-card-text>
       <v-tabs-window v-model="tab">
         <v-tabs-window-item value="one">
-          <v-img width="1000" height="1500" :src="resume" />
+          <v-img width="1000" height="1500" :src="resume1" />
         </v-tabs-window-item>
         <v-tabs-window-item value="two">
-          <v-img width="1000" height="1500" :src="resume" />
+          <v-img width="1000" height="1500" :src="resume2" />
         </v-tabs-window-item>
       </v-tabs-window>
     </v-card-text>
@@ -20,7 +20,8 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import resume from '@/assets/resume.png'
+import resume1 from '@/assets/resume-spa.png'
+import resume2 from '@/assets/resume-en.png'
 
 const tab = ref('one')
 </script>
