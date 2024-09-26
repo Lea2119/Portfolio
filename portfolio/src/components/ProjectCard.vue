@@ -1,10 +1,10 @@
 <template>
-  <v-card class="ma-8 pa-4" variant="flat">
+  <v-card class="my-8 py-4" variant="flat">
     <div class="d-flex justify-space-between">
-      <div class="flex-grow-1" rounded="0" max-width="50%">
+      <div class="flex-grow-1" rounded="0" width="50%">
         <v-img aspect-ratio="16/9" cover height="400" :src="image"></v-img>
       </div>
-      <div style="max-width: 50%" class="px-4">
+      <div style="max-width: 50%" class="px-4" width="50%">
         <p class="text-h4 font-weight-bold pb-4 gradient-text">{{ title }}</p>
         <p class="flex-wrap text-justify pb-4 text-body-2" style="line-height: 2.5">
           {{ description }}
