@@ -8,7 +8,6 @@
         <template v-slot:append>
           <v-btn to="/" text="Work" variant="text" class="mr-4" />
           <v-btn to="/about" text="About" variant="text" />
-          <v-btn to="/resume" text="Resume" variant="text" />
           <v-btn to="/contact" text="Contact" variant="text" />
         </template>
       </v-app-bar>
